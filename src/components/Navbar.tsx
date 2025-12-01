@@ -33,7 +33,12 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2 group">
-            <ShoppingBag className="w-6 h-6 transition-transform group-hover:scale-110" />
+             <img
+               src="https://i.pinimg.com/736x/14/d4/ad/14d4adc945ed61610dc8e1b22aacee08.jpg"
+                alt="Logo"
+                className="transition-transform group-hover:scale-110"
+                style={{ width: "60px", height: "60px" }} // ⬅️ control size here
+              />
             <span className="text-xl font-bold tracking-tight">PLUS CARE</span>
           </Link>
 
